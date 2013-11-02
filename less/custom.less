@@ -1,0 +1,19 @@
+// Use violet just as an example
+// You can define the color directly in the @base variable.
+// All other variables depend on @base.
+@violet:				#b200ff;
+
+@base:					@violet;
+@base-light:			lighten( @base, 30% );
+@base-dark:				darken( @base, 15% );
+
+@link-color:			@base;
+
+@component-active-bg:	@base;
+
+@input-border-focus:	@base;
+
+@btn-success-bg:		lighten(@base, 7%);
+
+@state-success-bg:		@base-light;
+@state-success-text:	@base-dark;
