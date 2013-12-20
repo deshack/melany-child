@@ -1,9 +1,7 @@
-// Use violet just as an example
-// You can define the color directly in the @base variable.
+// You can define the main color directly in the @base variable.
 // All other variables depend on @base.
-@violet:				#b200ff;
 
-@base:					@violet;
+@base:					#fd2a30;
 @base-light:			lighten( @base, 30% );
 @base-dark:				darken( @base, 15% );
 
@@ -17,3 +15,7 @@
 
 @state-success-bg:		@base-light;
 @state-success-text:	@base-dark;
+
+// Fonts
+@icon-font-path:		'../melany/lib/bootstrap/fonts/';
+@font-path-base:		'../melany/fonts/';
